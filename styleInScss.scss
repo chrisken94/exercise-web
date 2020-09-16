@@ -3,20 +3,17 @@
         img {
             width: 50%;
             position: relative;
-            // top: 2vh;
         }
     }
     .navbar-nav {
         position: absolute;
-        // margin: auto;
         a {
             display:none;
         }
         a.hamIcon {
             display: block;
             position: absolute;
-            top: -6vh;
-            right: 1vh;
+            transform: translate(-130%, -160%);
             color: rgb(87, 157, 185);
         }
         a.hamIcon:hover {
@@ -30,7 +27,7 @@
         display: block;
         text-align: center;
         position: relative;
-        left:-17.5vh;
+        left:-140%;
         padding: 10px 10px;
     }
     
@@ -39,6 +36,11 @@
         color: rgb(147, 163, 168) !important;
         border-radius: 10px;
         background-color: rgb(40, 54, 59);
+    }
+    .navbar-nav.responsive a.hamIcon {
+        position: absolute;
+        top: 0%;
+        right: -18%;
     }
     .boxx {
         width: 10px;
