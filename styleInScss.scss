@@ -1,0 +1,89 @@
+@media screen and (max-width: 600px) {
+    .navbar {
+        img {
+            width: 50%;
+            position: relative;
+            // top: 2vh;
+        }
+    }
+    .navbar-nav {
+        position: absolute;
+        // margin: auto;
+        a {
+            display:none;
+        }
+        a.hamIcon {
+            display: block;
+            position: absolute;
+            top: -6vh;
+            right: 1vh;
+            color: rgb(87, 157, 185);
+        }
+        a.hamIcon:hover {
+            color: yellow;
+        }
+    }
+    .navbar-nav.responsive {
+        position: relative;
+    }
+    .navbar-nav.responsive a.nav-link {
+        display: block;
+        text-align: center;
+        position: relative;
+        left:-17.5vh;
+        padding: 10px 10px;
+    }
+    
+    .navbar-nav.responsive a.nav-link:hover {
+        font-weight: bold;
+        color: rgb(147, 163, 168) !important;
+        border-radius: 10px;
+        background-color: rgb(40, 54, 59);
+    }
+    .boxx {
+        width: 10px;
+        height: 10px;
+        background-color: red;
+    }
+}
+// end-of @ media max 600px
+
+.navbar {
+    background-color: rgb(56,57,63);
+    overflow: hidden;
+}
+.navbar-nav {
+    .nav-link:hover {
+        color: yellow !important;
+    }
+}
+.navbar-nav .hamIcon {
+    display: none;
+}
+
+.img1 {
+    background-image: url(img/Opening.jpg);
+    height: 950px;
+    position: relative;
+}
+.con1 {
+    position: absolute;
+    top: 50%;
+    transform: translate(7%, -50%);
+    max-width: 85vw;
+}
+.title {
+    color: white;
+    text-align: center;
+}
+.boxx {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    float: right;
+    vertical-align: top;
+}
+.exm1 {
+    // text-align: left;
+    overflow: auto;
+}

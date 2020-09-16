@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BS Meta Tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>latihan</title>
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styleInScss.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-sm" id="myBars">
+    <img src="img/Highlight.jpg" alt="">
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+      <ul class="navbar-nav" id="myTopnav">
+        <li class="nav-item">
+          <a class="nav-link text-white-50" href="#">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white-50" href="#">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white-50" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white-50" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white-50" href="#">Teams</a>
+        </li>
+        <li class="bars">
+          <a href="javascript:void(0);" class="hamIcon" onclick="myFunc()"><i class="fas fa-bars"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HOME IMAGE -->
+  <div class="container-fluid img1">
+
+    <div class="container-fluid con1">
+      <div class="row row1">
+
+        <div class="title">
+          <h1>THIS IS A WEB DESIGN EXAM</h1>
+          <br>
+          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, aliquam. Et tempore fugiat eos dolorem sit? Quisquam debitis quos possimus totam reiciendis porro obcaecati sequi dolor culpa, et sunt minima.</h4><br>
+          <a href="" class="btn btn-dark btn-lg">Good Luck</a>
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+  <div class="exm1">
+      Lorem ipsum
+      <div class="boxx">
+      </div>
+  </div>
+
+  <!-- javascript for navbar small screen -->
+  <script>
+    function myFunc() {
+      let x = document.getElementById('myTopnav');
+      if (x.className === 'navbar-nav') {
+        x.className += ' responsive';
+      } else {
+        x.className = 'navbar-nav';
+      }
+    }
+  </script>
+  <!-- end-of javascript for navbar small screen -->
+  
+  <!-- BS jQuery, Popper.js, Javascript -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
